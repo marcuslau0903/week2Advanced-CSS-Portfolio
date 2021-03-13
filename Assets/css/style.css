@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    display: flex;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-image: url(../Images/bkground_image.jpg);
+    background-size: center;
+    background-position: center;
+    background-repeat: repeat;
+    flex: 1;
+} 
+
+header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px; 
+    background-color: teal;
+    color: white;
+    width: 100%;
+    border:1px solid white;
+}
+
+h1 {
+    border: 2px dashed white;
+    padding: 10px
+}
+
+.profile_picture {
+    border: 2px solid white;
+    border-radius: 5%;  
+    margin-top: 10px;
+    /* need to put at middle */
+    margin-left: 50%;
+}
+
+p, h2 {
+color: white;
+text-align: center;
+margin: 10px 5px;
+line-height: normal;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards_container {
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav a { 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: white;   
+}
+
+li {
+    list-style: none;
+    border: 2px dashed white;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+main { 
+    display: flex;
+    flex: 1;
+    flex-wrap:wrap;
+}
+
+.card {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5%;
+    float: left;
+    width:25%;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    justify-content: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.card-image {
+ width: 100%;   
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    bottom: 0;
+    background-color: teal;
+    color: white;
+    border:1px solid white;
+}
+
+/* Ipad Pro */
+@media screen and (max-width:1030px) {
+    .card {
+        width: 50%;
+    }
+}
+/* Iphone X */
+@media screen and (max-width:375px) {
+    .card {
+        width: 100%;
+    }
+}
