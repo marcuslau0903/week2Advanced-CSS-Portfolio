@@ -146,14 +146,14 @@ footer {
     border:1px solid white;
 }
 
-/* Ipad Pro */
+/* Tablet viewport */
 @media screen and (max-width:900px) {
     .card {
         width: 40%;
     }
 
 }
-/* Iphone X */
+/* Mobile viewport */
 @media screen and (max-width:375px) {
     .card {
         width: 100%;
