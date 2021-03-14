@@ -23,3 +23,5 @@ Building portfolio using HTML and CSS.
 - [x] Use of CSS variables. 
 
 - [x] Use of comments.
+
+- [x] favicon. 
