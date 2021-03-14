@@ -156,7 +156,7 @@ footer {
 /* Iphone X */
 @media screen and (max-width:375px) {
     .card {
-        width: 90%;
+        width: 100%;
     }
 
 }
