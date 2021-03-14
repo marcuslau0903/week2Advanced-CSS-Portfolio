@@ -53,12 +53,13 @@ h2 {
 color: var(--white);
 text-align: center;
 margin: 10px 5px;
-line-height: normal;
 }
 
 p {
 color: var(--white);
-text-align: center;
+font-size:large;
+text-align: justify;
+margin: 5px 45px;
 }
 
 h4, h5{
