@@ -18,7 +18,7 @@ Building portfolio using HTML and CSS.
 
 - [x] Responsive layout that adapts to desktop, tablet and mobile viewport.
 
-- [x] Use of pseudo class such as Hover.
+- [x] Use of pseudo class such as Hover, transition & transform.
 
 - [x] Use of CSS variables. 
 
