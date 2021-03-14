@@ -94,15 +94,17 @@ main {
 .cards_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card {
     padding: 10px;
     border: 2px solid white;
     border-radius: 3%;
-    float: left;
     width:20%;
-    margin: 0 auto; 
+    margin: 10px 10px;
+    transition: 0.5s;
 }
 
 .card-header {
@@ -121,6 +123,9 @@ nav a:hover {
 }
 .card-image:hover {
 opacity: 0.5;
+}
+.card:hover { 
+    transform:scale(1.1);
 }
 
 .contact_form {
@@ -142,21 +147,16 @@ footer {
 }
 
 /* Ipad Pro */
-@media screen and (max-width:1030px) {
+@media screen and (max-width:900px) {
     .card {
-        width: 50%;
+        width: 40%;
     }
 
-    nav {
-        flex-direction: column;
-    }
 }
 /* Iphone X */
 @media screen and (max-width:375px) {
     .card {
-        width: 100%;
+        width: 90%;
     }
-    nav {
-        flex-direction: column;
-    }
+
 }

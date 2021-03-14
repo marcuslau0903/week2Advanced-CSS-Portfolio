@@ -25,3 +25,5 @@ Building portfolio using HTML and CSS.
 - [x] Use of comments.
 
 - [x] favicon. 
+
+- [x] Application's image become be larger in size than the others when clicked on the images of the applications.
