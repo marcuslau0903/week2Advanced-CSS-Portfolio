@@ -69,6 +69,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border: 2px white dashed;
 }
 
 nav a { 
@@ -80,9 +81,8 @@ nav a {
 
 li {
     list-style: none;
-    border: 2px dashed white;
     padding: 5px;
-    margin-right: 20px;
+    margin: 15px;
 }
 
 main { 
@@ -144,10 +144,17 @@ footer {
     .card {
         width: 50%;
     }
+
+    nav {
+        flex-direction: column;
+    }
 }
 /* Iphone X */
 @media screen and (max-width:375px) {
     .card {
         width: 100%;
+    }
+    nav {
+        flex-direction: column;
     }
 }
