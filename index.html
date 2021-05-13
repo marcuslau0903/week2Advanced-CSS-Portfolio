@@ -12,90 +12,56 @@
 </head>
 
 <body>
-<!-- header & nav -->
 <header>
-    <h1 id="home">Marcus Lau</h1>
+    <h1>Marcus Lau</h1>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#mywork">My Work</a></li>
-            <li><a href="#contactme">Contact Me</a></li>
+            <li><a href="./contactInfo.html">Contact Me</a></li>
         </ul>
     </nav>
 </header>
 
-<!-- main content of page -->
 <main>
-<figure> 
-    <img class="profile_picture" src="./Assets/Images/profile picture.PNG" alt="Profile Picture"/> 
-</figure> 
-<!-- About Me Section -->
-<div>
-    <section>
-        <h2 id="aboutme">About Me</h2> 
-            <p> 
-                I was born and raised in Hong Kong, then came to the UK to pursue higher levels of education. 
-                I have recently graduated from DMU University Leicester in business management, and currently reside in the city of Birmingham UK.
-                I enjoy hobbies that would require a lot of attention into details such as cooking, I have also recently picked up on Aquascape as well as a bit of reading. 
-                Since I was young, the idea of entrepreneurship has always appealed to me. Hence I would want to work at things that I am passionate about, and achieve or to 
-                witness great results from the hard work that I have put into.  I would like to acquire web developing skills as it has become more common for online business practices,
-                improving my computer skills would also be advantageous in terms of employability.
-            </p>
-    </section>
+<img class="profile_picture" src="./Assets/Images/profile picture.PNG" alt="Profile Picture"/> 
+
+<div id="aboutme">
+    <h2>About Me</h2> 
+    <p> 
+        I was born and raised in Hong Kong, then came to the UK to pursue higher levels of education.
+        I have recently graduated from De Montfort University in business management, and currently reside in the city of Birmingham UK.
+        I am currently enrolled in Full-Stack web development coding boot-camp with the aim
+        of acquiring software skills & knowledge to become a web developer. 
+    </p>
 </div>
 
-<div>
-    <h2 id="mywork">My Work</h2>
-</div>
-<!-- My Work Section -->
+<h2 class="linebreak" id="mywork">My Work</h2>
 <div class="cards_container">
-        <section class="card">
-            <header class="card-header">Pre-work Webpage</header>
-            <a href="https://marcuslau0903.github.io/prework-about-me/" target="_blank"><img class="card-image" src="./Assets/Images/prework.PNG" alt="Pre-work image" /></a>
-            <p>Learning HTML</p>
-        </section>
-
-        <section class="card">
-            <header class="card-header">Code Refactor</header>
-            <a href="https://marcuslau0903.github.io/homework-week-1/" target="_blank"><img class="card-image" src="./Assets/Images/coderefactor.PNG" alt="Code Refactor Image" /></a>
-            <p>Learning HTML</p>
-        </section>
-
-        <section class="card">
-            <header class="card-header">Built a PC</header>
-            <img class="card-image" src="./Assets/Images/rig.PNG" alt="rig image" />
-            <p>Hardware assembly</p>
-        </section>
-        <section class="card">
-            <header class="card-header">CSS Portfolio</header>
-            <a href="https://marcuslau0903.github.io/week2Advanced-CSS-Portfolio/" target="_blank"><img class="card-image" src="./Assets/Images/Capture.PNG" alt="CSS Portfolio" /></a>
-            <p>Advanced CSS</p>
-        </section>
+    <div class="card">
+        <div class="card-header">Group Project | Samplify</div>
+        <a href="https://leon3005.github.io/samplify-uk/" target="_blank"><img class="card-image" src="Assets/Images/samscreen.PNG"/></a>
+    </div>
+    <div class="card">
+        <div class="card-header">Weather Dashboard</div>
+        <a href="https://marcuslau0903.github.io/week6Server-Side-APIs-Weather-Dashboard/" target="_blank"><img class="card-image" src="Assets/Images/weather.PNG"/></a>
+    </div>
+        <div class="card">
+            <div class="card-header">Timed Coding Quiz</div>
+            <a href="https://marcuslau0903.github.io/Week4TimedCodingQuiz/" target="_blank"><img class="card-image" src="Assets/Images/quiz.PNG"/></a>
+        </div>
+        <div class="card">
+            <div class="card-header">Random Password Generator</div>
+            <a href="https://marcuslau0903.github.io/Week3JavaScript-PasswordGenerator/" target="_blank"><img class="card-image" src="Assets/Images/rpw.PNG"/></a>
+        </div>
 </div>
-
-<!-- Contact Me Section -->
-<div class="contact_form">
-    <h2 id="contactme">Contact Me</h2>
-        <form>
-            <h4 class="form">Name:</h4>
-                <input type="text" placeholder="Your Name" class="textbox">
-            <h4 class="form">Contact Number:</h4> 
-                <input type="text" placeholder="Phone Number" class="textbox">
-            <h4 class="form">Email:</h4>
-                <input type="email" placeholder="Your Email Address" class="textbox">
-            <h4 class="form">Leave a message!</h4>
-                <textarea rows="5"></textarea>
-    <div><button>Submit</button></div>
-    <h5>click to submit</h5>
-        </form>
-</div>
-
 </main>
 
 <footer>
     <span><strong>Thanks for visiting!</strong></span>
 </footer>
-
 </body>
 </html>
+
+
