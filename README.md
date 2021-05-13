@@ -1,29 +1,23 @@
-# week2Advanced-CSS-Portfolio
+# Advanced-CSS-Portfolio
 
-Building portfolio using HTML and CSS. 
+## Description
+A personal portfolio using HTML and CSS. 
 
 [link to deployed project page URL] https://marcuslau0903.github.io/week2Advanced-CSS-Portfolio/
 
 [link to GitHub repository] https://github.com/marcuslau0903/week2Advanced-CSS-Portfolio 
 
-- [x] Contains content that demonstrates previous work.
+- [x] The cards contains content that demonstrates previous work and by clicking on the images it will take you to deployed application.
 
-- [x] Presented with developer's name, recent photo, and links to sections about me, my previous work and how to contact. 
-
-- [x] WHEN click one of the links in the navigation the UI scrolls to the corresponding section.
-
-- [x] WHEN click on the link to the section about my work the UI scrolls to a section with titled images. 
-
-- [x] When click on images of the applications will take you to deployed application.
+- [x] Developer's name, recent photo, links to sections about me, my previous work and contact info. 
 
 - [x] Responsive layout that adapts to desktop, tablet and mobile viewport.
 
-- [x] Use of pseudo class such as Hover, transition & transform.
+## Extra Features
 
-- [x] Use of CSS variables. 
-
-- [x] Use of comments.
-
+- [x] Use of pseudo class such as Hover, transition & transform to animate cards, creating a better user experiencs.
+- [x] font awsome icons.
 - [x] favicon. 
 
-- [x] Application's image become be larger in size than the others when clicked on the images of the applications.
+## Screen shots 
+
