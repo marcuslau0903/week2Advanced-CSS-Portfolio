@@ -21,3 +21,4 @@ A personal portfolio using HTML and CSS.
 
 ## Screen shots 
 
+![screenshot](./Assets/Images/Capture.png)
